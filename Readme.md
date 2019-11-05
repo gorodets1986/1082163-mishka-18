@@ -1,7 +1,7 @@
 # Личный проект «Мишка» [![Build status][travis-image]][travis-url] [![Dependency status][dependency-image]][dependency-url]
 
 * Студент: [Евгений Долгинин](https://up.htmlacademy.ru/adaptive/18/user/1082163).
-* Наставник: `Неизвестно`.
+* Наставник: [Мария Чернова] (https://htmlacademy.ru/profile/id49571).
 
 ---
 
