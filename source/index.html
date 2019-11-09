@@ -16,10 +16,10 @@
             <div class="main-nav__wrapper">
                 <ul class="main-nav__list site-list">
                     <li class="site-list__item site-list__item--active">
-                        <a href="">Каталог товаров</a>
+                        <a href="catalog.html">Каталог товаров</a>
                     </li>
                     <li class="site-list__item">
-                        <a href="">Вязание на заказ</a>
+                        <a href="order-form.html">Вязание на заказ</a>
                     </li>
                     <li class="site-list__item">
                         <a href="">Поиск по сайту</a>
@@ -80,48 +80,64 @@
             <a href="" class="product-week__button button">Заказать</a>
         </section>
         <section class="about-us">
-            <h2 class="about-us__heading">Коротко о нас:</h2>
-            <ul class="about-us__list">
-                <li class="about-us__item about-us__item--ecology">
-                    <p class="about-us__description">Экологически чистые материалы</p>
-                </li>
-                <li class="about-us__item about-us__item--money">
-                    <p class="about-us__description">Скандинавский стиль по российской цене</p>
-                </li>
-                <li class="about-us__item about-us__item--like">
-                    <p class="about-us__description">Увеличивает лайки на фотографиях</p>
-                </li>
-                <li class="about-us__item about-us__item--handmade">
-                    <p class="about-us__description">Связано вручную с любовью и умилением</p>
-                </li>
-                <li class="about-us__item about-us__item--manufacturer">
-                    <p class="about-us__description">Поддержка отечественного производителя</p>
-                </li>
-                <li class="about-us__item about-us__item--packaging">
-                    <p class="about-us__description">Поставляется в подарочной упаковке</p>
-                </li>
-            </ul>
+            <div class="about-us__wrapper">
+                <h2 class="about-us__heading">Коротко о нас:</h2>
+                <ul class="about-us__list">
+                    <li class="about-us__item about-us__item--ecology">
+                        <p class="about-us__description">Экологически чистые материалы</p>
+                    </li>
+                    <li class="about-us__item about-us__item--money">
+                        <p class="about-us__description">Скандинавский стиль по российской цене</p>
+                    </li>
+                    <li class="about-us__item about-us__item--like">
+                        <p class="about-us__description">Увеличивает лайки на фотографиях</p>
+                    </li>
+                    <li class="about-us__item about-us__item--handmade">
+                        <p class="about-us__description">Связано вручную с любовью и умилением</p>
+                    </li>
+                    <li class="about-us__item about-us__item--manufacturer">
+                        <p class="about-us__description">Поддержка отечественного производителя</p>
+                    </li>
+                    <li class="about-us__item about-us__item--packaging">
+                        <p class="about-us__description">Поставляется в подарочной упаковке</p>
+                    </li>
+                </ul>
+            </div>
         </section>
     </main>
     <footer class="page-footer">
-        <div class="page-footer__social social">
-            <ul class="social__list">
-                <li class="social__item">
-                    <a href="" class="social__link social__link--instagram">Мы в инстаграм</a>
-                </li>
-                <li class="social__item">
-                    <a href="" class="social__link social__link--facebook">Мы в фейсбуке</a>
-                </li>
-                <li class="social__item">
-                    <a href="" class="social__link social__link--twitter">Мы в твиттере</a>
-                </li>
-            </ul>
-        </div>
-        <div class="page-footer__copyright copyright">
-            <p class="copyright__text">Разработано</p>
-            <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive"><img src="https://via.placeholder.com/27x34" alt="htmlacademy" class="copyright__image"></a>
+        <div class="page-footer__wrapper">
+            <div class="page-footer__social social">
+                <ul class="social__list">
+                    <li class="social__item">
+                        <a href="" class="social__link social__link--instagram">Мы в инстаграм</a>
+                    </li>
+                    <li class="social__item">
+                        <a href="" class="social__link social__link--facebook">Мы в фейсбуке</a>
+                    </li>
+                    <li class="social__item">
+                        <a href="" class="social__link social__link--twitter">Мы в твиттере</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="page-footer__copyright copyright">
+                <p class="copyright__text">Разработано</p>
+                <a class="button copyright__link" href="https://htmlacademy.ru/intensive/adaptive"><img src="https://via.placeholder.com/27x34" alt="Академия" class="copyright__image"></a>
+            </div>
         </div>
     </footer>
+    <div class="addCart-popup visually-hidden">
+        <div class="addCart-popup__wrapper">
+            <h2 class="addCart-popup__heading">Добавить в корзину</h2>
+            <p class="addCart-popup__text">
+                Выберите размер:
+            </p>
+            <button class="addCart-popup__size">s</button>
+            <button class="addCart-popup__size">m</button>
+            <button class="addCart-popup__size">l</button>
+            <a href="" class="addCart-popup__button">Добавить</a>
+        </div>
+    </div>
 </body>
 
 </html>
