@@ -1,0 +1,45 @@
+.catalog-products__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+.catalog-products__item {
+    outline: 1px solid #ececec;
+    margin-top: 30px;
+}
+
+.catalog-products__container {
+    padding-left: 28px;
+    padding-right: 28px;
+    margin-top: 31px;
+    margin-bottom: 30px;
+}
+
+.catalog-products__title {
+    font-family: "OpenSans", "Arial", sans-serif;
+    font-size: 17px;
+    font-weight: bold;
+    line-height: 1.41;
+    color: #000000;
+    margin: 0;
+}
+
+.catalog-products__description {
+    font-family: "OpenSans", "Arial", sans-serif;
+    font-size: 13px;
+    line-height: 2.31;
+    color: $greyish-brown;
+    border-bottom: 1px solid #ececec;
+    margin-top: 17px;
+    margin-bottom: 26px;
+    padding-bottom: 27px;
+}
+
+.catalog-products__price {
+    font-family: "OpenSans", "Arial", sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    line-height: 1.6;
+    color: #000000;
+}
