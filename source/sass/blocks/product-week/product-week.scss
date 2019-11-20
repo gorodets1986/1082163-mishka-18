@@ -1,76 +1,76 @@
 .product-week__wrapper {
-    padding-left: 30px;
-    padding-right: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
 }
 
 .product-week__heading {
-    font-family: "OpenSans", "Arial", sans-serif;
-    font-size: 17px;
-    font-weight: bold;
-    font-stretch: normal;
-    line-height: 1.18;
-    letter-spacing: normal;
-    color: #63d1bb;
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  font-stretch: normal;
+  line-height: 1.18;
+  letter-spacing: normal;
+  color: #63d1bb;
 }
 
 .product-week__title {
-    font-family: "OpenSans", "Arial", sans-serif;
-    font-size: 25px;
-    font-weight: bold;
-    line-height: 1.2;
-    letter-spacing: normal;
-    color: #000000;
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #000000;
 }
 
 .product-week__description {
-    font-family: "OpenSans", "Arial", sans-serif;
-    font-size: 15px;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: $greyish-brown;
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: $greyish-brown;
 }
 
 .product-week__options {
-    font-family: "OpenSans", "Arial", sans-serif;
-    font-size: 15px;
-    line-height: 1.33;
-    letter-spacing: normal;
-    color: $greyish-brown;
-    border-collapse: collapse;
-    margin-bottom: 28px;
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 15px;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: $greyish-brown;
+  border-collapse: collapse;
+  margin-bottom: 28px;
 }
 
 .product-week__field,
 .product-week__value {
-    border-bottom: 1px solid #f1f1f1;
-    padding-top: 9px;
-    padding-bottom: 9px;
+  border-bottom: 1px solid #f1f1f1;
+  padding-top: 9px;
+  padding-bottom: 9px;
 }
 
 .product-week__field {
-    padding-right: 31px;
+  padding-right: 31px;
 }
 
 .product-week__value {
-    padding-right: 23px;
+  padding-right: 23px;
 }
 
 .product-week__image {
-    background-color: #f1f1f1;
+  background-color: #f1f1f1;
 }
 
 .product-week__price {
-    font-family: "OpenSans", "Arial", sans-serif;
-    font-size: 17px;
-    font-weight: bold;
-    line-height: 1.41;
-    letter-spacing: normal;
-    text-align: center;
-    color: greyish-brown;
-    margin-top: 29px;
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.41;
+  letter-spacing: normal;
+  text-align: center;
+  color: greyish-brown;
+  margin-top: 29px;
 }
 
 .product-week__button {
-    margin-top: 28px;
-    margin-bottom: 36px;
+  margin-top: 28px;
+  margin-bottom: 36px;
 }

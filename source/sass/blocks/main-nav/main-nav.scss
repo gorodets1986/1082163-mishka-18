@@ -1,27 +1,27 @@
 .main-nav {
-    border-top: 1px solid #ececec;
+  border-top: 1px solid #ececec;
 }
 
 .main-nav__toggle {
-    font-size: 0;
+  font-size: 0;
 }
 
 .site-list {
-    padding-left: 0;
+  padding-left: 0;
 }
 
 .site-list__item {
-    list-style-type: none;
-    border-bottom: 1px solid #ececec;
+  list-style-type: none;
+  border-bottom: 1px solid #ececec;
 }
 
 .site-list__link {
-    display: block;
-    font-family: "OpenSans";
-    font-size: 17px;
-    font-weight: bold;
-    line-height: 1.41;
-    letter-spacing: normal;
-    color: #000000;
-    text-align: center;
+  display: block;
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.41;
+  letter-spacing: normal;
+  color: #000000;
+  text-align: center;
 }
