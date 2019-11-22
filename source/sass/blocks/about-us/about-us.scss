@@ -6,21 +6,17 @@
 }
 
 .about-us__heading {
-  font-family: "OpenSans", "Arial", sans-serif;
+  @include opensansbold;
   font-size: 25px;
-  font-weight: bold;
   line-height: 1.2;
-  letter-spacing: normal;
   color: #000000;
 }
 
 .about-us__list {
+  @include opensansbold;
   list-style-type: none;
-  font-family: "OpenSans", "Arial", sans-serif;
   font-size: 17px;
-  font-weight: bold;
   line-height: 1.18;
-  letter-spacing: normal;
   color: #000000;
   padding-left: 0;
 }

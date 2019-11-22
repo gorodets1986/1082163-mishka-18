@@ -16,12 +16,10 @@
 }
 
 .site-list__link {
+  @include opensansbold;
   display: block;
-  font-family: "OpenSans", "Arial", sans-serif;
   font-size: 17px;
-  font-weight: bold;
   line-height: 1.41;
-  letter-spacing: normal;
   color: #000000;
   text-align: center;
 }

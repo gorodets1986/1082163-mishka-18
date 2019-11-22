@@ -12,14 +12,12 @@
 }
 
 .product-nav__link {
+  @include opensansbold;
   display: block;
   padding-left: 29px;
   padding-top: 30px;
   padding-bottom: 30px;
-  font-family: "OpenSans", "Arial", sans-serif;
   font-size: 19px;
-  font-weight: bold;
   line-height: 1.26;
-  letter-spacing: normal;
   color: #ffffff;
 }

@@ -21,10 +21,8 @@
 }
 
 .copyright__text {
-  font-family: "OpenSans", "Arial", sans-serif;
+  @include opensansbold;
   font-size: 19px;
-  font-weight: bold;
   line-height: 0.95;
-  letter-spacing: normal;
   color: #000000;
 }
