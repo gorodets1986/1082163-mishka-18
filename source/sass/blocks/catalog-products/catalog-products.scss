@@ -1,0 +1,43 @@
+.catalog-products__list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.catalog-products__item {
+  outline: 1px solid #ececec;
+  margin-top: 30px;
+}
+
+.catalog-products__container {
+  padding-left: 28px;
+  padding-right: 28px;
+  margin-top: 31px;
+  margin-bottom: 30px;
+}
+
+.catalog-products__title {
+  @include opensansbold;
+  font-size: 17px;
+  line-height: 1.41;
+  color: #000000;
+  margin: 0;
+}
+
+.catalog-products__description {
+  @include opensans;
+  font-size: 13px;
+  line-height: 2.31;
+  color: $greyish-brown;
+  border-bottom: 1px solid #ececec;
+  margin-top: 17px;
+  margin-bottom: 26px;
+  padding-bottom: 27px;
+}
+
+.catalog-products__price {
+  @include opensansbold;
+  font-size: 15px;
+  line-height: 1.6;
+  color: #000000;
+}

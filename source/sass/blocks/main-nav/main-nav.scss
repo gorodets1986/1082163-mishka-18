@@ -1,0 +1,25 @@
+.main-nav {
+  border-top: 1px solid #ececec;
+}
+
+.main-nav__toggle {
+  font-size: 0;
+}
+
+.site-list {
+  padding-left: 0;
+}
+
+.site-list__item {
+  list-style-type: none;
+  border-bottom: 1px solid #ececec;
+}
+
+.site-list__link {
+  @include opensansbold;
+  display: block;
+  font-size: 17px;
+  line-height: 1.41;
+  color: #000000;
+  text-align: center;
+}

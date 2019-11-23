@@ -1,0 +1,23 @@
+.products-nav__list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.products-nav__item:nth-of-type(2n-1) {
+  background-color: #63d1bb;
+}
+
+.products-nav__item:nth-of-type(2n) {
+  background-color: #56c3b2;
+}
+
+.product-nav__link {
+  @include opensansbold;
+  display: block;
+  padding-left: 29px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  font-size: 19px;
+  line-height: 1.26;
+  color: #ffffff;
+}

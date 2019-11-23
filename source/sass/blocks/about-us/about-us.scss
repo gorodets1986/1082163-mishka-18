@@ -1,0 +1,26 @@
+.about-us__wrapper {
+  margin-left: 30px;
+  margin-top: 34px;
+  margin-right: 30px;
+  margin-bottom: 61px;
+}
+
+.about-us__heading {
+  @include opensansbold;
+  font-size: 25px;
+  line-height: 1.2;
+  color: #000000;
+}
+
+.about-us__list {
+  @include opensansbold;
+  list-style-type: none;
+  font-size: 17px;
+  line-height: 1.18;
+  color: #000000;
+  padding-left: 0;
+}
+
+.about-us__item {
+  margin-top: 32px;
+}

@@ -1,0 +1,47 @@
+@import "fonts/fonts",
+  "vendors/normalize",
+  "mixins/mixins",
+  "abstracts/variables",
+  "blocks/about-us/about-us",
+  "blocks/add-cart-popup/add-cart-popup",
+  "blocks/catalog-products/catalog-products",
+  "blocks/main-nav/main-nav",
+  "blocks/page-footer/page-footer",
+  "blocks/page-header/page-header",
+  "blocks/page-main/page-main",
+  "blocks/product-week/product-week",
+  "blocks/products-nav/products-nav";
+
+body {
+  width: 320px;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.button {
+  border: 2px solid $greyish-brown;
+  display: block;
+  font-family: "OpenSans", "Arial", sans-serif;
+  font-size: 17px;
+  font-weight: bold;
+  line-height: 1.18;
+  letter-spacing: normal;
+  text-align: center;
+  text-transform: uppercase;
+  color: $greyish-brown;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.zigzag-line {
+  background-image: url("../img/bg-zigzag-line.svg");
+  background-repeat: no-repeat;
+  min-height: 2px;
+}
