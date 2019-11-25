@@ -1,0 +1,40 @@
+.contacts {
+  padding-bottom: 39px;
+}
+
+.contacts__heading {
+  @include opensansbold;
+  font-size: 18px;
+  line-height: 1.67;
+  color: #000000;
+  margin-top: 44px;
+  margin-bottom: 42px;
+}
+
+.contacts__options {
+  min-height: 166px;
+  margin-bottom: 42px;
+}
+
+.contacts__parameter,
+.contacts__email {
+  @include opensans;
+  font-size: 15px;
+  line-height: 2;
+  color: $greyish-brown;
+}
+
+.contacts__field,
+.contacts__value {
+  text-align: left;
+  vertical-align: top;
+}
+
+.contacts__field {
+  width: 78px;
+}
+
+.contacts__map {
+  display: block;
+  margin-bottom: 39px;
+}

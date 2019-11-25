@@ -6,3 +6,8 @@
 @mixin opensans {
   font-family: "OpenSans", "Arial", sans-serif;
 }
+
+@mixin list-reset {
+  list-style-type: none;
+  padding-left: 0;
+}

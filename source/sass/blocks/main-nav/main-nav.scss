@@ -7,11 +7,10 @@
 }
 
 .site-list {
-  padding-left: 0;
+  @include list-reset;
 }
 
 .site-list__item {
-  list-style-type: none;
   border-bottom: 1px solid #ececec;
 }
 

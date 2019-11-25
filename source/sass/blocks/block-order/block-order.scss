@@ -1,0 +1,97 @@
+.block-order {
+  margin-top: 29px;
+  margin-bottom: 55px;
+}
+
+.block-order__text {
+  @include opensans;
+  font-size: 13px;
+  line-height: 1.85;
+  color: $greyish-brown;
+  margin-top: 0;
+  margin-bottom: 30px;
+}
+
+.block-order__field {
+  margin-top: 34px;
+  border: none;
+  border-top: 1px solid #63d1bb;
+  margin-left: 0;
+  margin-right: 0;
+  margin-bottom: 0;
+  padding: 0;
+}
+
+.block-order__field:last-of-type {
+  margin-bottom: 18px;
+}
+
+.block-order__title {
+  @include opensansbold;
+  font-size: 17px;
+  line-height: 0.94;
+  color: #63d1bb;
+}
+
+.block-order__paragraph {
+  @include opensansbold;
+  font-size: 17px;
+  line-height: 1.06;
+  color: #000000;
+}
+
+.block-order__input {
+  border: none;
+  width: 260px;
+  min-height: 52px;
+}
+
+.block-order__input--name,
+.block-order__input--surname,
+.block-order__input--patronymic,
+.block-order__input--tel,
+.block-order__input--email {
+  box-shadow: inset 0 -2px 0 0 #000000;
+}
+
+.block-order__input--name::placeholder,
+.block-order__input--surname::placeholder,
+.block-order__input--patronymic::placeholder,
+.block-order__input--email::placeholder,
+.block-order__input--text::placeholder {
+  @include opensans;
+  font-size: 17px;
+  line-height: 1.06;
+  color: rgba($greyish-brown, 0.3);
+}
+
+.block-order__input--tel::placeholder {
+  @include opensans;
+  font-size: 19px;
+  line-height: 0.95;
+  color: rgba($greyish-brown, 0.3);
+}
+
+.block-order__input--text {
+  width: 159px;
+  min-height: 142px;
+  resize: none;
+  border: 2px solid $greyish-brown;
+  padding-left: 17px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  padding-right: 80px;
+}
+
+.block-order__footnote {
+  @include opensans;
+  font-size: 14px;
+  line-height: 1.14;
+  color: $greyish-brown;
+}
+
+.block-order__button {
+  margin-top: 31px;
+  width: 260px;
+  background-color: #ffffff;
+}
