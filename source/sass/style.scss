@@ -4,13 +4,17 @@
   "abstracts/variables",
   "blocks/about-us/about-us",
   "blocks/add-cart-popup/add-cart-popup",
+  "blocks/block-order/block-order",
   "blocks/catalog-products/catalog-products",
+  "blocks/contacts/contacts",
   "blocks/main-nav/main-nav",
   "blocks/page-footer/page-footer",
   "blocks/page-header/page-header",
   "blocks/page-main/page-main",
   "blocks/product-week/product-week",
-  "blocks/products-nav/products-nav";
+  "blocks/production/production",
+  "blocks/products-nav/products-nav",
+  "blocks/reviews/reviews";
 
 body {
   width: 320px;
@@ -40,8 +44,9 @@ a {
   padding-bottom: 20px;
 }
 
-.zigzag-line {
+//псевдоэлементом
+/*.zigzag-line {
   background-image: url("../img/bg-zigzag-line.svg");
   background-repeat: no-repeat;
   min-height: 2px;
-}
+}*/

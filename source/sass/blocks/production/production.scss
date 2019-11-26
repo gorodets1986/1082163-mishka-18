@@ -1,0 +1,37 @@
+.production {
+  outline: 1px solid #ececec;
+  padding-top: 29px;
+  padding-bottom: 33px;
+  margin-bottom: 58px;
+}
+
+.production__heading {
+  @include opensansbold;
+  font-size: 17px;
+  line-height: 1.41;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 26px;
+  margin-left: 34px;
+  margin-right: 43px;
+}
+
+.production__video {
+  margin-bottom: 34px;
+}
+
+.production__text {
+  @include opensans;
+  font-size: 13px;
+  line-height: 1.85;
+  color: $greyish-brown;
+  margin-left: 34px;
+  margin-right: 43px;
+  margin-top: 0;
+  margin-bottom: 29px;
+}
+
+.production__link {
+  margin-left: 34px;
+  margin-right: 34px;
+}

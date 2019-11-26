@@ -1,0 +1,70 @@
+.reviews {
+  padding-bottom: 45px;
+}
+
+.reviews__heading {
+  @include opensansbold;
+  font-size: 25px;
+  line-height: 1.2;
+  color: #000000;
+  margin-top: 0;
+  margin-bottom: 38px;
+}
+
+.reviews__list {
+  @include list-reset;
+  margin: 0;
+}
+
+.reviews__item {
+  margin-bottom: 36px;
+}
+
+.reviews__text {
+  @include opensans;
+  font-size: 15px;
+  line-height: 2;
+  color: $greyish-brown;
+  margin-top: 0;
+  margin-bottom: 40px;
+}
+
+.reviews__author-name {
+  @include opensansbold;
+  font-size: 17px;
+  line-height: 1.41;
+  color: #000000;
+}
+
+.reviews__author-pseudonym {
+  @include opensans;
+  font-size: 17px;
+  line-height: 1.76;
+  color: $greyish-brown;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.reviews__buttons {
+  margin-bottom: 38px;
+}
+
+.reviews__prev,
+.reviews__next {
+  width: 130px;
+  display: block;
+}
+
+.reviews__prev {
+  padding-left: 38px;
+  padding-right: 40px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
+
+.reviews__next {
+  padding-left: 40px;
+  padding-right: 38px;
+  padding-top: 13px;
+  padding-bottom: 13px;
+}
