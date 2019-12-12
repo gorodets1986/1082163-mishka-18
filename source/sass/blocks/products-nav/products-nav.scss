@@ -1,5 +1,10 @@
+.products-nav {
+  margin-top: -73px;
+}
+
 .products-nav__list {
   @include list-reset;
+  margin: 0;
 }
 
 .products-nav__item:nth-of-type(2n-1) {
@@ -19,4 +24,25 @@
   font-size: 19px;
   line-height: 1.26;
   color: #ffffff;
+}
+
+@media (min-width: $tablet-width) {
+  .products-nav {
+    margin-top: 0;
+  }
+
+  .products-nav__list {
+    display: flex;
+  }
+
+  .products-nav__item {
+    width: 334px;
+    min-height: 119px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .products-nav__item {
+    width: 525px;
+  }
 }

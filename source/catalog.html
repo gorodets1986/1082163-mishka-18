@@ -9,19 +9,21 @@
 
 <body>
 <header class="page-header">
-  <a href="index.html" class="page-header__logo">
-    <img src="https://via.placeholder.com/86x35" width="86" height="35" alt="Онлайн магазин Мишка" class="page-header__logo-image">
-  </a>
-  <nav class="main-nav">
-    <button class="main-nav__toggle" type="button">Открыть меню</button>
-    <div class="main-nav__wrapper">
+  <div class="page-header__wrapper">
+    <a class="page-header__logo">
+      <img src="https://via.placeholder.com/86x35" width="86" height="35" alt="Онлайн магазин Мишка" class="page-header__logo-image">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
       <ul class="main-nav__list site-list">
         <li class="site-list__item site-list__item--active">
-          <a class="site-list__link">Каталог товаров</a>
+          <a href="catalog.html" class="main-nav__link site-list__link">Каталог товаров</a>
         </li>
         <li class="site-list__item">
-          <a href="order-form.html" class="site-list__link">Вязание на заказ</a>
+          <a href="order-form.html" class="main-nav__link site-list__link">Вязание на заказ</a>
         </li>
+      </ul>
+      <ul class="user__list site-list">
         <li class="site-list__item">
           <a href="" class="site-list__link">Поиск по сайту</a>
         </li>
@@ -29,22 +31,39 @@
           <a href="" class="site-list__link">Корзина: пока пуста</a>
         </li>
       </ul>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </header>
 <main class="page-main">
-  <h1 class="page-main__heading">Каталог товаров</h1>
+  <div class="page-main__background-catalog">
+    <div class="page-main__wrapper">
+      <h1 class="page-main__heading">Каталог товаров</h1>
+      <p class="page-main__text">Бесплатная доставка по России</p>
+      <nav class="offers-nav">
+        <ul class="offers-nav__list">
+          <li class="offers-nav__item">
+            <a href="" class="offers-nav__link">Новые поступления</a>
+          </li>
+          <li class="offers-nav__item">
+            <a href="" class="offers-nav__link">Распродажа</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
   <div class="container">
     <section class="catalog-products">
-      <h2 class="visually-hibben">Товары</h2>
+      <h2 class="visually-hidden">Товары</h2>
       <ul class="catalog-products__list">
         <li class="catalog-products__item">
           <img src="https://via.placeholder.com/260x195" width="260" height="195" alt="Зайчик-попрыгайчик" class="catalog-products__image">
           <div class="catalog-products__container">
             <h3 class="catalog-products__title">Зайчик-попрыгайчик</h3>
             <p class="catalog-products__description">Рост 30 см, вес 200 г</p>
-            <p class="catalog-products__price">1 200 руб.</p>
-            <a href="" class="catalog-products__button"><img src="https://via.placeholder.com/20x19" width="20" height="19" alt="Добавить в корзину"></a>
+            <div class="catalog-products__priceblock">
+              <p class="catalog-products__price">1 200 руб.</p>
+              <a href="" class="catalog-products__button"><img src="https://via.placeholder.com/20x19" width="20" height="19" alt="Добавить в корзину"></a>
+            </div>
           </div>
         </li>
         <li class="catalog-products__item">
@@ -52,8 +71,10 @@
           <div class="catalog-products__container">
             <h3 class="catalog-products__title">Корзинка для белья</h3>
             <p class="catalog-products__description">Диаметр 15 см, высота 10 см</p>
-            <p class="catalog-products__price">690 руб.</p>
-            <a href="" class="catalog-products__button"><img src="https://via.placeholder.com/20x19" width="20" height="19" alt="Добавить в корзину"></a>
+            <div class="catalog-products__priceblock">
+              <p class="catalog-products__price">690 руб.</p>
+              <a href="" class="catalog-products__button"><img src="https://via.placeholder.com/20x19" width="20" height="19" alt="Добавить в корзину"></a>
+            </div>
           </div>
         </li>
         <li class="catalog-products__item">
@@ -61,8 +82,10 @@
           <div class="catalog-products__container">
             <h3 class="catalog-products__title">Большая корзинка для игрушек</h3>
             <p class="catalog-products__description">Диаметр 30 см, высота 30 см</p>
-            <p class="catalog-products__price">1 500 руб.</p>
-            <a href="" class="catalog-products__button"><img src="https://via.placeholder.com/20x19" width="20" height="19" alt="Добавить в корзину"></a>
+            <div class="catalog-products__priceblock">
+              <p class="catalog-products__price">1 500 руб.</p>
+              <a href="" class="catalog-products__button"><img src="https://via.placeholder.com/20x19" width="20" height="19" alt="Добавить в корзину"></a>
+            </div>
           </div>
         </li>
       </ul>
@@ -82,6 +105,9 @@
 <footer class="page-footer">
   <div class="container">
     <div class="page-footer__wrapper">
+      <a class="page-footer__logo">
+        <img src="https://via.placeholder.com/86x35" width="86" height="35" alt="Онлайн магазин Мишка" class="page-footer__logo-image">
+      </a>
       <div class="page-footer__social social">
         <ul class="social__list">
           <li class="social__item">
@@ -104,28 +130,26 @@
   </div>
 </footer>
 <div class="add-cart-popup visually-hidden">
-  <div class="container">
-    <div class="add-cart-popup__wrapper">
-      <h2 class="add-cart-popup__heading">Добавить в корзину</h2>
-      <p class="add-cart-popup__text">
-        Выберите размер:
-      </p>
-      <form action="https://echo.htmlacademy.ru" class="add-cart-popup__form">
-        <label class="add-cart-popup__size add-cart-popup__size--checked">
-          s
-          <input type="checkbox" name="size" value="s" class="add-cart-popup__input" checked>
-        </label>
-        <label class="add-cart-popup__size">
-          m
-          <input type="checkbox" name="size" value="m" class="add-cart-popup__input">
-        </label>
-        <label class="add-cart-popup__size">
-          l
-          <input type="checkbox" name="size" value="l" class="add-cart-popup__input">
-        </label>
-        <button type="submit" class="add-cart-popup__button">Добавить</button>
-      </form>
-    </div>
+  <div class="add-cart-popup__wrapper">
+    <h2 class="add-cart-popup__heading">Добавить в корзину</h2>
+    <p class="add-cart-popup__text">
+      Выберите размер:
+    </p>
+    <form action="https://echo.htmlacademy.ru" class="add-cart-popup__form">
+      <label class="add-cart-popup__size add-cart-popup__size--checked">
+        s
+        <input type="checkbox" name="size" value="s" class="add-cart-popup__input" checked>
+      </label>
+      <label class="add-cart-popup__size">
+        m
+        <input type="checkbox" name="size" value="m" class="add-cart-popup__input">
+      </label>
+      <label class="add-cart-popup__size">
+        l
+        <input type="checkbox" name="size" value="l" class="add-cart-popup__input">
+      </label>
+      <button type="submit" class="add-cart-popup__button">Добавить</button>
+    </form>
   </div>
 </div>
 </body>

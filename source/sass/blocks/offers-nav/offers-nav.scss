@@ -1,0 +1,25 @@
+.offers-nav {
+  display: none;
+}
+
+@media (min-width: $desktop-width) {
+  .offers-nav {
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .offers-nav__list {
+    @include list-reset;
+    display: flex;
+  }
+
+  .offers-nav__link {
+    @include opensansbold;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #000000;
+    display: block;
+  }
+}

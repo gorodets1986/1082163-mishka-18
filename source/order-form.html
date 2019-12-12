@@ -9,19 +9,21 @@
 
 <body>
 <header class="page-header">
-  <a href="index.html" class="page-header__logo">
-    <img src="https://via.placeholder.com/86x35" width="86" height="35" alt="Онлайн магазин Мишка" class="page-header__logo-image">
-  </a>
-  <nav class="main-nav">
-    <button class="main-nav__toggle" type="button">Открыть меню</button>
-    <div class="main-nav__wrapper">
+  <div class="page-header__wrapper">
+    <a class="page-header__logo">
+      <img src="https://via.placeholder.com/86x35" width="86" height="35" alt="Онлайн магазин Мишка" class="page-header__logo-image">
+    </a>
+    <nav class="main-nav">
+      <button class="main-nav__toggle" type="button">Открыть меню</button>
       <ul class="main-nav__list site-list">
         <li class="site-list__item site-list__item--active">
-          <a href="catalog.html" class="site-list__link">Каталог товаров</a>
+          <a href="catalog.html" class="main-nav__link site-list__link">Каталог товаров</a>
         </li>
         <li class="site-list__item">
-          <a class="site-list__link">Вязание на заказ</a>
+          <a href="order-form.html" class="main-nav__link site-list__link">Вязание на заказ</a>
         </li>
+      </ul>
+      <ul class="user__list site-list">
         <li class="site-list__item">
           <a href="" class="site-list__link">Поиск по сайту</a>
         </li>
@@ -29,11 +31,26 @@
           <a href="" class="site-list__link">Корзина: пока пуста</a>
         </li>
       </ul>
-    </div>
-  </nav>
+    </nav>
+  </div>
 </header>
 <main class="page-main">
-  <h1 class="page-main__heading">Вязание на заказ</h1>
+  <div class="page-main__background-order">
+    <div class="page-main__wrapper">
+      <h1 class="page-main__heading">Вязание на заказ</h1>
+      <p class="page-main__text">Бесплатная доставка по России</p>
+      <nav class="offers-nav">
+        <ul class="offers-nav__list">
+          <li class="offers-nav__item">
+            <a href="" class="offers-nav__link">Новые поступления</a>
+          </li>
+          <li class="offers-nav__item">
+            <a href="" class="offers-nav__link">Распродажа</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
   <div class="block-order">
     <div class="container">
       <p class="block-order__text">Мы будем рады воплотить в жизнь ваши пожелания! Заполните простую форму заказа и мы свяжемся с вами, чтобы уточнить детали.</p>
@@ -118,6 +135,9 @@
 <footer class="page-footer">
   <div class="container">
     <div class="page-footer__wrapper">
+      <a class="page-footer__logo">
+        <img src="https://via.placeholder.com/86x35" width="86" height="35" alt="Онлайн магазин Мишка" class="page-footer__logo-image">
+      </a>
       <div class="page-footer__social social">
         <ul class="social__list">
           <li class="social__item">

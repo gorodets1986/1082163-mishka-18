@@ -8,6 +8,7 @@
   "blocks/catalog-products/catalog-products",
   "blocks/contacts/contacts",
   "blocks/main-nav/main-nav",
+  "blocks/offers-nav/offers-nav",
   "blocks/page-footer/page-footer",
   "blocks/page-header/page-header",
   "blocks/page-main/page-main",
@@ -17,31 +18,58 @@
   "blocks/reviews/reviews";
 
 body {
-  width: 320px;
+  min-width: 320px;
+  margin: 0;
+  padding: 0;
 }
 
 a {
   text-decoration: none;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+.visually-hidden {
+  display: none;
+}
+
 .container {
+  margin: 0 auto;
   padding-left: 30px;
   padding-right: 30px;
 }
 
 .button {
+  @include opensansbold;
   border: 2px solid $greyish-brown;
   display: block;
-  font-family: "OpenSans", "Arial", sans-serif;
   font-size: 17px;
-  font-weight: bold;
   line-height: 1.18;
-  letter-spacing: normal;
   text-align: center;
   text-transform: uppercase;
   color: $greyish-brown;
   padding-top: 20px;
   padding-bottom: 20px;
+}
+
+@media (min-width: $tablet-width) {
+  .container {
+    width: 668px;
+    padding: 0;
+  }
+
+  .main-nav {
+    min-height: 88px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .container {
+    width: 1050px;
+  }
 }
 
 //псевдоэлементом
