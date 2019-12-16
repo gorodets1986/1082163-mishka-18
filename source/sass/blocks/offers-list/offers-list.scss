@@ -1,0 +1,21 @@
+.offers-list {
+  display: none;
+}
+
+@media (min-width: $desktop-width) {
+  .offers-list {
+    @include list-reset;
+    display: flex;
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+
+  .offers-list__link {
+    @include opensansbold;
+    font-size: 15px;
+    line-height: 1.6;
+    color: #000000;
+    display: block;
+  }
+}

@@ -28,10 +28,13 @@
   font-size: 13px;
   line-height: 2.31;
   color: $greyish-brown;
-  border-bottom: 1px solid #ececec;
   margin-top: 17px;
   margin-bottom: 26px;
   padding-bottom: 27px;
+}
+
+.catalog-products__priceblock {
+  border-top: 1px solid #ececec;
 }
 
 .catalog-products__price {
@@ -39,4 +42,32 @@
   font-size: 15px;
   line-height: 1.6;
   color: #000000;
+}
+
+@media (min-width: $tablet-width) {
+  .catalog-products__item {
+    display: flex;
+  }
+
+  .catalog-products__priceblock {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .catalog-products__list {
+    display: flex;
+  }
+
+  .catalog-products__item {
+    flex-direction: column;
+    width: 316px;
+    margin-right: 51px;
+  }
+
+  .catalog-products__item:nth-of-type(3n) {
+    margin-right: 0;
+  }
 }

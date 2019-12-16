@@ -60,3 +60,40 @@
   margin-top: 28px;
   margin-bottom: 36px;
 }
+
+@media (min-width: $tablet-width) {
+  .product-week {
+    position: relative;
+  }
+
+  .product-week__block--top {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .product-week__block--bottom {
+    width: 292px;
+  }
+
+  .product-week__image {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .product-week__block--top {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  .product-week__block--bottom {
+    margin-left: 175px;
+  }
+
+  .product-week__image {
+    z-index: -1;
+  }
+}
