@@ -5,6 +5,7 @@
 
 .page-header__logo {
   display: block;
+  order: 1;
 }
 
 .page-header__logo-image {
@@ -15,20 +16,17 @@
 
 @media (min-width: $tablet-width) {
   .page-header {
-    height: 88px;
+    min-height: 88px;
   }
 
   .page-header__wrapper {
-    display: flex;
     position: relative;
     width: 668px;
     margin: 0 auto;
   }
 
   .page-header__logo {
-    position: absolute;
-    top: 0;
-    left: 0;
+    order: 0;
   }
 
   .page-header__logo-image {
@@ -44,8 +42,7 @@
     margin: 0 auto;
   }
 
-  .page-header__logo {
-    top: 0;
-    left: 450px;
-  }
+  /*.page-header__logo {
+
+  }*/
 }

@@ -8,7 +8,7 @@
   "blocks/catalog-products/catalog-products",
   "blocks/contacts/contacts",
   "blocks/main-nav/main-nav",
-  "blocks/offers-nav/offers-nav",
+  "blocks/offers-list/offers-list",
   "blocks/page-footer/page-footer",
   "blocks/page-header/page-header",
   "blocks/page-main/page-main",
@@ -16,12 +16,6 @@
   "blocks/production/production",
   "blocks/products-nav/products-nav",
   "blocks/reviews/reviews";
-
-body {
-  min-width: 320px;
-  margin: 0;
-  padding: 0;
-}
 
 a {
   text-decoration: none;

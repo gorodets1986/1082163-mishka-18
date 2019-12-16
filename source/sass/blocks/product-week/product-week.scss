@@ -66,12 +66,12 @@
     position: relative;
   }
 
-  .product-week__block-top {
+  .product-week__block--top {
     display: flex;
     justify-content: space-between;
   }
 
-  .product-week__block-bottom {
+  .product-week__block--bottom {
     width: 292px;
   }
 
@@ -83,13 +83,13 @@
 }
 
 @media (min-width: $desktop-width) {
-  .product-week__block-top {
+  .product-week__block--top {
     display: flex;
     flex-direction: row-reverse;
     justify-content: flex-end;
   }
 
-  .product-week__block-bottom {
+  .product-week__block--bottom {
     margin-left: 175px;
   }
 

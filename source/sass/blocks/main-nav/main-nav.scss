@@ -1,4 +1,6 @@
 .main-nav {
+  display: flex;
+  flex-direction: column;
   border-top: 1px solid #ececec;
   width: 320px;
   margin: 0 auto;
@@ -8,14 +10,14 @@
 .main-nav__toggle {
   font-size: 0;
   position: absolute;
-  top: -30px;
+  top: 40px;
   right: 30px;
 }
 
 .site-list {
   @include list-reset;
-  min-height: 158px;
   margin: 0;
+  order: 2;
 }
 
 .site-list__item {
@@ -39,12 +41,17 @@
     display: none;
   }
 
+  .site-list {
+    order: 0;
+  }
+
   .site-list__item {
     border-bottom: none;
   }
 
   .main-nav {
     display: flex;
+    flex-direction: row;
     justify-content: space-between;
     width: auto;
     margin: 0;
@@ -52,7 +59,9 @@
 
   .main-nav__list {
     display: flex;
-    padding-top: 88px;
+    position: absolute;
+    top: 88px;
+    left: 0;
     z-index: 2;
   }
 
@@ -78,7 +87,8 @@
   }
 
   .main-nav__list {
-    padding-top: 0;
+    position: inherit;
+    top: 0;
   }
 
   .main-nav__link {
