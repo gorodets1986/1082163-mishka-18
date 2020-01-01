@@ -14,8 +14,6 @@
 
 .block-order__field {
   margin-top: 34px;
-  border: none;
-  border-top: 1px solid #63d1bb;
   margin-left: 0;
   margin-right: 0;
   margin-bottom: 0;
@@ -31,6 +29,7 @@
   font-size: 17px;
   line-height: 0.94;
   color: #63d1bb;
+  width: 166px;
 }
 
 .block-order__paragraph {
@@ -38,16 +37,26 @@
   font-size: 17px;
   line-height: 1.06;
   color: #000000;
+  width: 260px;
+  display: flex;
+  align-items: center;
 }
 
 .block-order__input {
   @include opensans;
   border: none;
   width: 260px;
-  min-height: 52px;
   font-size: 17px;
   line-height: 1.06;
   color: rgba($greyish-brown, 0.3);
+  background-color: transparent;
+}
+
+.block-order__input[type="radio"],
+.block-order__input[type="checkbox"] {
+  width: 40px;
+  height: 40px;
+  margin-right: 23px;
 }
 
 .block-order__input--name,
@@ -80,4 +89,111 @@
   margin-top: 31px;
   width: 260px;
   background-color: #ffffff;
+}
+
+@media (min-width: $tablet-width) {
+  .block-order__row:nth-of-type(2n) {
+    background-color: #f1f1f1;
+  }
+
+  .block-order__field {
+    display: flex;
+  }
+
+  .block-order__line {
+    display: flex;
+    width: 499px;
+  }
+
+  .block-order__menu--checkbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 499px;
+  }
+
+  .block-order__paragraph {
+    width: 499px;
+  }
+
+  .block-order__paragraph--checkbox {
+    width: 239px;
+  }
+
+  .block-order__paragraph--line {
+    width: auto;
+  }
+
+  .block-order__input--name {
+    width: 435px;
+    margin-left: 25px;
+  }
+
+  .block-order__input--surname,
+  .block-order__input--patronymic {
+    width: 393px;
+    margin-left: 26px;
+  }
+
+  .block-order__input--tel,
+  .block-order__input--email,
+  .block-order__input--text {
+    width: 499px;
+  }
+
+  .block-order__submit {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .block-order__footnote {
+    margin-top: 35px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .block-order__text {
+    width: 672px;
+    margin-left: 174px;
+  }
+
+  .block-order__field {
+    padding-left: 61px;
+  }
+
+  .block-order__title {
+    width: 111px;
+  }
+
+  .block-order__menu {
+    width: 726px;
+  }
+
+  .block-order__line {
+    width: auto;
+  }
+
+  .block-order__input--name {
+    width: 636px;
+  }
+
+  .block-order__input--surname,
+  .block-order__input--patronymic {
+    width: 594px;
+  }
+
+  .block-order__input--tel,
+  .block-order__input--email,
+  .block-order__input--text,
+  .block-order__paragraph--tel,
+  .block-order__paragraph--email,
+  .block-order__paragraph--text {
+    width: 700px;
+  }
+
+  .block-order__submit {
+    width: 700px;
+    margin-left: 174px;
+  }
 }

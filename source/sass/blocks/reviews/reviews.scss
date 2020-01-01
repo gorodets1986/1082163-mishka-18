@@ -47,6 +47,7 @@
 
 .reviews__buttons {
   margin-bottom: 38px;
+  display: flex;
 }
 
 .reviews__prev,
@@ -67,4 +68,41 @@
   padding-right: 38px;
   padding-top: 13px;
   padding-bottom: 13px;
+}
+
+@media (min-width: $tablet-width) {
+  .reviews {
+    position: relative;
+    padding-top: 86px;
+  }
+
+  .reviews-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url("review@1x.jpg");
+    background-color: #f1f1f1;
+    width: 350px;
+    height: 457px;
+    z-index: -1;
+  }
+
+  .reviews__buttons {
+    position: absolute;
+    bottom: 62px;
+    right: 0;
+  }
+
+  .reviews__write {
+    position: absolute;
+    top: 79px;
+    right: 0;
+    width: 175px;
+  }
+}
+
+@media (min-width: $desktop-width) {
+  .reviews {
+    padding-left: 175px;
+  }
 }
